@@ -1,36 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 <head>
-<meta charset="UTF-8">
-	<title>Hackmas Target</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Welcome To h3ll</title>
+    <meta name="description" content="kasar_ctf Halloween">
+    <link rel="icon" href="img/kasar_ctf.jpg" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
 
-<style>
-    .container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-</style>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cookie');
+    </style>
 
+    
 </head>
-<body>
-
-<div class="container">  
-<img src='/img/XmasTree.jpeg'  style="width:100%;">
-<center>
-    <h1 style="font-family: 'Cookie', cursive;">Server Name : </h1>
-    <h2 style="font-family: 'Cookie', cursive;">IP Address : </h2>
-</center>
 
 
+<body style = "background-color: black; font-family: 'Cookie', cursive;">
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/XmasTree.jpeg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <!--<div class="col-6 align-self-center text-right">
+                        <a href="#" class="text-white lead">Get Early Access</a>
+                    </div>-->
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-red font-weight-bold my-5" style="color: rgba(255, 247, 5, 0.822);">
+            	HackMas CTF<br>
+            	
+                
+            </h1>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" style="color: rgb(46, 204, 25);">
+                bienvenu dans ce deuxième cTf ouveRt à tOUt le monde :) 
+                <br> le thème de ce ctf est le Penetration testing 
+                <br> Vous allEz apprendre LES bases de la sécurité offensive
+                <br> arriverez vous à sauver le Noël Prochain ?
+                <!-- Easter Eggs ahahaha -->
+            </p>
+        </div>
+    </div>
 
-</div>
+    <div class="container my-5 py-2" id="price-table" style="background-color: rgba(5, 5, 5, 0.5);">
+        <h2 class="text-center font-weight-bold d-block mb-3"  style="color: gold;">Cible : </h2>
+        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center"></div>
+        <center>
+            <p style="color: gold;">Server Name : </p>
+            <p style="color: gold;">IP : </p>
+        </center>  
+
+        </div> 
+
+        </div>
 
 
+	<!-- copyright -->
+	<div class="jumbotron jumbotron-fluid" id="copyright" style="background-image : url(img/xmasbanner.jpg);">
+        <div class="container">
+            <div class="row justify-content-between">
+            	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    Template  Copyright © 2018 Chen, Yi-Ya.<br>
+                    Cutom By KASAR
+                </div>
+                <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://instagram.com/kasar.ai?igshid=YmMyMTA2M2Y=" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-medium" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
 </body>
 
-
-
 </html>
-
 
